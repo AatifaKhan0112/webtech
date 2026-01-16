@@ -3,56 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Text Styling Example</title>
-
+    <title>Document</title>
     <style>
-        .serifFont {
-            font-family: "Times New Roman", serif;
-        }
-
-        .sansFont {
-            font-family: Arial, sans-serif;
-        }
-        .keyword {
-            color: blue;
+         .keyword{
+            color: purple;
             font-weight: bold;
         }
-
-        .important {
+        .important{
             color: red;
-            text-decoration: underline;
+            text-decoration-thickness: inherit;
         }
-
-        .note {
-            color: #076007;
+        .note{
+            font-size: 15px;
+            color: green;
             font-style: italic;
         }
+        .sansFont{
+            font-family: Arial, sans-serif;
+        }
+        .float-right{
+            float: right;
+            margin:10px;
+        }
+
     </style>
 </head>
-<body>
-    <h1 style="color: darkviolet;">Web Technology – HTML Styling</h1>
-
-    <h2 style="color: darkorange;">Text Formatting and Fonts</h2>
-    <p class="serifFont">
-        HTML allows us to apply <span class="keyword">colors</span>,
-        <span class="keyword">fonts</span> and
-        <span class="keyword">styles</span> to text to improve
-        <i>readability</i> and <b>presentation</b>
+<body bgcolor="white">
+     <img src="https://res.cloudinary.com/dwupjnqvr/image/upload/f_auto,q_auto/niet-bschool/events/niet-bschool/events/1765430294838_1765951782" alt="CSE Department Image" class="float-right" style="width:300px; height:300px;">
+    <h1 style="color: rgb(4, 58, 40);">Department Of CSE</h1>
+    <p style="font-size: larger;"><b>Click here for Official link:</b> <a href="https://www.niet.co.in/department/computer-science-engineering">NIET CSE Department</a></p>
+    <p  class="sansFont">
+        The Department of <span class="important">Computer Science and Engineering</span> at <a href="https://www.niet.co.in/">NIET</a> is highly esteemed for its exceptional standards in computer engineering education.
     </p>
-    <h3 style="color: teal;">Font Styles Example</h3>
-
     <p class="sansFont">
-        This paragraph uses a <span class="important">Sans Serif Font</span>.
-        We can also use <u>underline</u>, <i>italic</i> and
-        <b>bold</b> styles in HTML.
+        <span class="keyword">NBA</span> <i>accredited and renowned</i> for producing <u>top-tier professionals</u> and making a <span class="note">substantial</span> <b>impact</b> in the software industry both domestically and internationally, NIET stands out as a frontrunner in this domain. The department is dedicated to <span class="keyword">cutting-edge research</span> and providing state-of-the-art education.
     </p>
-
-    <h4 style="color: brown;">Important Note</h4>
-
-    <p class="note">
-        Always use proper styling to make web pages
-        <span class="important">user-friendly</span> and
-        <span class="keyword">attractive</span>.
+    <p class="sansFont">
+        <span class="important"><b>Apply here for admission: </b></span><a href="https://applynow.niet.co.in/?_gl=1*opy9t7*_gcl_au*MTUxNDE4NDYxMC4xNzY4MzcyMTkz"> NIET Admissions</a> to embark on a transformative journey in <span class="note">computer science and engineering.</span>
     </p>
+    <h3 class="sansFont">Select your Department:</h3>
+    <form>
+        <input list="departments" name="department" placeholder="Choose your department">
+        <datalist id="departments">
+            <option value="Computer Science and Engineering">
+            <option value="Information Technology">
+            <option value="Electronics and Communication Engineering">
+            <option value="Mechanical Engineering">
+            <option value="Civil Engineering">
+        </datalist>
+        <input type="submit" value="Submit">
+    </form>
+
 </body>
 </html>
