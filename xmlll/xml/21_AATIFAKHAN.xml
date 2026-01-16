@@ -1,0 +1,9 @@
+<!DOCTYPE student [
+<!ELEMENT student (name,age)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+]>
+<student>
+    <name>Riya</name>
+    <age>21</age>
+</student>

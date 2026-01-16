@@ -1,0 +1,5 @@
+<!DOCTYPE note [
+<!ELEMENT note (to,from)>
+]>
+<!ELEMENT note (to,from)>
+<!DOCTYPE note SYSTEM "note.dtd">
