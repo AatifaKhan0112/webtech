@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="exam_ques5.xsd">
+    <student>
+        <rollno>101</rollno>
+        <name>Aatifa Khan</name>
+        <email>aatifa@example.com</email>
+        <department>CSE</department>
+    </student>
+    
+    <student>
+        <rollno>102</rollno>
+        <name>Rahul Verma</name>
+        <email>rahul@example.com</email>
+        <department>ECE</department>
+    </student>
+    
+    <student>
+        <rollno>103</rollno>
+        <name>Sneha Singh</name>
+        <email>sneha@example.com</email>
+        <department>ME</department>
+    </student>
+</students>

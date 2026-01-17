@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book id="B001">
+        <title>Web Technology</title>
+        <author>Aatifa Khan</author>
+        <price>450.00</price>
+        <category>Education</category>
+    </book>
+    
+    <book id="B002">
+        <title>Learning Java</title>
+        <author>James Gosling</author>
+        <price>599.00</price>
+        <category>Programming</category>
+    </book>
+    
+    <book id="B003">
+        <title>Artificial Intelligence</title>
+        <author>Stuart Russell</author>
+        <price>850.50</price>
+        <category>Technology</category>
+    </book>
+</bookstore>

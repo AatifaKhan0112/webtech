@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks</title>
+</head>
+
+<body id="top">
+
+    <center>
+        <h1>Student Performance Report</h1>
+        <h3>Annual Examination Results 2025</h3>
+
+        <table border="1" cellspacing="0" cellpadding="10" width="80%">
+            <thead>
+                <tr bgcolor="#f2f2f2">
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Aarav Sharma</td>
+                    <td>Mathematics</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Priya Patel</td>
+                    <td>Physics</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>Rohan Singh</td>
+                    <td>Computer Science</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>104</td>
+                    <td>Sneha Gupta</td>
+                    <td>English</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>105</td>
+                    <td>Vikram Malhotra</td>
+                    <td>Chemistry</td>
+                    <td>79</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+        <a href="#top">Go to Top</a>
+    </center>
+
+</body>
+
+</html>
